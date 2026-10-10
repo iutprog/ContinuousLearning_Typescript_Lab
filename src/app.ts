@@ -17,7 +17,7 @@ const todoItems: Todo[] = [
     { id: 3, title: "Write the best app in the world", status: TodoStatus.Todo },
 ]
 
-function addTodoItem(todo : string) {
+function addTodoItem(todo : string) : Todo {
     const id = getNextId(todoItems)
 
     const newTodo : Todo = {
